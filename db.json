@@ -1,9 +1,3408 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkP9VQydMBRmW67obqD7"
+    },
+    {
+      "id": 2,
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbbPF3fdjbQWh"
+    },
+    {
+      "id": 3,
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abVy7NJdWVNgqGcCD9Lo"
+    },
+    {
+      "id": 4,
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "tq7nF9XpG3wUnr1U76P5"
+    },
+    {
+      "fullName": "Nguyễn thị e",
+      "email": "nguyenthie@gmail.com",
+      "password": "nguyenthie",
+      "token": "NU2pOY2SHfNXYdeoPuTO",
+      "id": 5
+    },
+    {
+      "fullName": "my",
+      "email": "vy@gmail.com",
+      "password": "123",
+      "token": "wVT4psLvQEctlN1yPa24",
+      "id": 6
+    },
+    {
+      "fullName": "vy",
+      "email": "v2y@gmail.com",
+      "password": "123",
+      "token": "Wsi2v4BdZrBgzrMK5yRM",
+      "id": 7
+    },
+    {
+      "fullName": "vy",
+      "email": "v22y@gmail.com",
+      "password": "123",
+      "token": "NbkURXJzRaJ9G6eetURw",
+      "id": 8
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huynh@gmail.com",
+      "password": "12",
+      "token": "HrriiqXXwpDLDajI2SWE",
+      "id": 9
+    },
+    {
+      "fullName": "hello",
+      "email": "vy11@gmail.com",
+      "password": "12",
+      "token": "ivWFGFdcvVknKs5uGx5U",
+      "id": 10
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huyn2h@gmail.com",
+      "password": "12",
+      "token": "ieo0rWl3KRzR9ioX0Sud",
+      "id": 11
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huyn22h@gmail.com",
+      "password": "12",
+      "token": "079WLGpNC20aIBHtbIfD",
+      "id": 12
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huynh22@gmail.com",
+      "password": "12",
+      "token": "xKlVS6nBe1ct2vK3PkGs",
+      "id": 13
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huynh33@gmail.com",
+      "password": "12",
+      "token": "9NZLGDqCnx4qlVsDbI7p",
+      "id": 14
+    },
+    {
+      "fullName": "vy",
+      "email": "vy6@gmail.com",
+      "password": "12",
+      "token": "eaeNKg95pXivQxaBd4Y8",
+      "id": 15
+    },
+    {
+      "fullName": "Huỳnh",
+      "email": "huyn33@gmail.com",
+      "password": "12",
+      "token": "Ytc5qTABt9qRVXBX7mKL",
+      "id": 16
+    },
+    {
+      "fullName": "vy",
+      "email": "vy33@gmail.com",
+      "password": "123",
+      "token": "C8VjPPd8GWowDDcxVfdY",
+      "id": 17
+    },
+    {
+      "fullName": "phước",
+      "email": "phuoc@gmail.com",
+      "password": "phuoc",
+      "token": "vV88eGd8O7BuSPrj6VgK",
+      "id": 18
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "Javascript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của…?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
+      "answers": [
+        "<h6>",
+        "<h1>",
+        "<head>",
+        "<heading>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Thẻ nào dùng để xuống dòng trong HTML?",
+      "answers": [
+        "<enter>",
+        "<br>",
+        "<break>",
+        "<lb>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML chính xác dùng để xác định văn bản quan trọng",
+      "answers": [
+        "<important>",
+        "<strong>",
+        "<b>",
+        "<i>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Chọn thẻ HTML được dùng nhấn mạnh nội dung văn bản",
+      "answers": [
+        "<i>",
+        "<em>",
+        "<italic>",
+        "<b>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Mã HTML chính xác để tạo liên kết là…",
+      "answers": [
+        "<a name=\"https://daca.vn\">Daca.vn</a>",
+        "<a href=\"https://daca.vn\">Daca.vn</a>",
+        "<a url=\"https://daca.vn\">Daca.vn</a>",
+        "<a>https://daca.vn</a>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Ký tự nào được dùng để biểu thị cho một thẻ đóng?",
+      "answers": [
+        "\\",
+        "/",
+        "^",
+        "*"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Mã HTML nào bạn sẽ dùng khi muốn mở link trên 1 tab hoặc cửa sổ mới?",
+      "answers": [
+        "<a href=\"https://daca.vn\" target=\"new\">Daca.vn</a>",
+        "<a href=\"https://daca.vn\" new>Daca.vn</a>",
+        "<a href=\"https://daca.vn\" target=\"_blank\">Daca.vn</a>",
+        "<a href=\"https://daca.vn\" blank>Daca.vn</a>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Những thẻ HTML nào dùng để định nghĩa cấu trúc của bảng?",
+      "answers": [
+        "<table>, <thead>, <tbody>, <tr>, <tt>",
+        "<table>, <thead>, <tbody>, <tr>, <td>",
+        "<table>, <head>, <tfoot>, <tr>, <td>",
+        "<thead>, <thead>, <body>, <tr>, <td>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "question": "Các thẻ HTML có thể viết liền nhau mà không cần bắt buộc xuống dòng mới?",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "question": "Để tạo một danh sách có dấu đầu dòng, bạn dùng thẻ HTML nào?",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<lt>",
+        "<ol>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "question": "Để tạo một danh sách đánh số, bạn dùng phần tử HTML nào?",
+      "answers": [
+        "<ul>",
+        "<list>",
+        "<lt>",
+        "<ol>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một hộp kiểm (checkbox)?",
+      "answers": [
+        "<check>",
+        "<checkbox>",
+        "<input type=\"check\">",
+        "<input type=\"checkbox\">"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một ô nhập dữ liệu văn bản?",
+      "answers": [
+        "<input type=\"textfield\">",
+        "<input type=\"text\">",
+        "<textinput type=\"text\">",
+        "<textfield>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một danh sách thả xuống (drop-down list)?",
+      "answers": [
+        "<input type=\"list\">",
+        "<input type=\"dropdown\">",
+        "<select>",
+        "<list>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "question": "Thẻ HTML nào tạo ra một ô nhập dữ liệu với nhiều dòng?",
+      "answers": [
+        "<input type=\"textarea\">",
+        "<textarea></textarea>",
+        "<input type=\"textbox\">",
+        "<textbox></textbox>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "question": "Thẻ HTML nào dùng để chèn một hình ảnh?",
+      "answers": [
+        "<image src=\"image.gif\" alt=\"Ảnh đẹp\">",
+        "<img href=\"image.gif\" alt=\"Ảnh đẹp\">",
+        "<img src=\"image.gif\" alt=\"Ảnh đẹp\">",
+        "<img alt=\"Ảnh đẹp\">image.gif</img>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "question": "Thẻ <iframe> được sử dụng để hiển thị một trang trong một trang web?",
+      "answers": [
+        "Đúng",
+        "Sai",
+        "Không có thẻ <iframe>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "question": "Các chú thích trong HTML sẽ bắt đầu bằng <!-- và kết thúc bằng -->",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "topicId": 2,
+      "question": "CSS là viết tắt của?",
+      "answers": [
+        "Creative Style Sheets",
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 22,
+      "topicId": 2,
+      "question": "Muốn liên kết file HTML với file CSS ta dùng dòng nào sau đây?",
+      "answers": [
+        "<style src=\"mystyle.css\">",
+        "<stylesheet>mystyle.css</stylesheet>",
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 23,
+      "topicId": 2,
+      "question": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?",
+      "answers": [
+        "font",
+        "class",
+        "style",
+        "styles"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 24,
+      "topicId": 2,
+      "question": "Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?",
+      "answers": [
+        "Trong thẻ <body>",
+        "Trong thẻ <head>",
+        "Ở cuối file HTML",
+        "Ở đầu file HTML"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "topicId": 2,
+      "question": "Dòng nào tuân theo đúng cú pháp của CSS?",
+      "answers": [
+        "body { color: black }",
+        "{ body; color: black }",
+        "body: color=black",
+        "{ body: color=black }"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "topicId": 2,
+      "question": "Dòng nào thể hiện đúng một comment (lời chú thích) trong CSS?",
+      "answers": [
+        "/* this is a comment */",
+        "// this is a comment //",
+        "\"this is a comment\"",
+        "// this is a comment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "topicId": 2,
+      "question": "Thuộc tính nào dùng để thay đổi màu nền?",
+      "answers": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 28,
+      "topicId": 2,
+      "question": "Làm thế nào thêm màu nền cho tất cả các phần tử <h1>?",
+      "answers": [
+        "h1.all {background-color:#FFFFFF}",
+        "h1 {background-color:#FFFFFF}",
+        "all.h1 {background-color:#FFFFFF}",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "topicId": 2,
+      "question": "Làm thế nào thay màu của chữ (text)?",
+      "answers": [
+        "text-color=",
+        "fgcolor:",
+        "color:",
+        "text-color:"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "topicId": 2,
+      "question": "Thuộc tính nào thay đổi kích cỡ chữ?",
+      "answers": [
+        "font-style",
+        "font-size:",
+        "text-style",
+        "text-size"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "topicId": 2,
+      "question": "Thuộc tính nào làm chữ trong tag p trở thành chữ đậm?",
+      "answers": [
+        "p {text-size: bold}",
+        "<p style=\"font-size: bold\">",
+        "<p style=\"text-size: bold\">",
+        "p {font-weight: bold}"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 32,
+      "topicId": 2,
+      "question": "Làm sao để hiển thị liên kết mà ko có gạch chân bên dưới?",
+      "answers": [
+        "a {decoration: no underline}",
+        "a {text-decoration: no underline}",
+        "a {underline: none}",
+        "a {text-decoration: none}"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 33,
+      "topicId": 2,
+      "question": "Làm sao để mỗi từ trong 1 câu đều viết hoa ở đầu từ?",
+      "answers": [
+        "text-transform: capitalize",
+        "text-transform:uppercase",
+        "Cả A và B đều đúng",
+        "CSS không hỗ trợ chức năng này"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "topicId": 2,
+      "question": "Làm sao để thay đổi font của mỗi phần tử?",
+      "answers": [
+        "font=",
+        "font:",
+        "font-family:",
+        "font-family="
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 35,
+      "topicId": 2,
+      "question": "Làm sao để tạo chữ đậm?",
+      "answers": [
+        "font-weight: bold",
+        "style: bold",
+        "font-style: bold",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "topicId": 2,
+      "question": "Làm sao để thay đổi lề trái của một phần tử?",
+      "answers": [
+        "margin-left:",
+        "text-indent:",
+        "indent:",
+        "left:"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "topicId": 2,
+      "question": "Để định nghĩa khoảng trống giữa các viền (border) của phần tử và nội dung, bạn sử dụng thuộc tính padding, có thể gán giá trị âm cho thuộc tính này không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ có thể ở một vài trường hợp đặc biệt",
+        "Tùy theo trình duyệt người dùng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "topicId": 2,
+      "question": "Làm thế nào để hình ở đầu mỗi dòng của 1 list (danh sách) có hình vuông?",
+      "answers": [
+        "type: 2",
+        "type: square",
+        "list-type: square",
+        "list-style-type: square"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 39,
+      "topicId": 2,
+      "question": "a:hover là:",
+      "answers": [
+        "Liên kết chưa thăm",
+        "Di chuột vào thẻ a",
+        "Liên kết đã thăm",
+        "Kích hoạt một thành phần"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 40,
+      "topicId": 2,
+      "question": "Có mấy vị trí đặt CSS",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 41,
+      "topicId": 3,
+      "question": "Để kiểm tra kiểu dữ liệu của một biến trong JavaScript, ta sử dụng toán tử gì?",
+      "answers": [
+        "typeof",
+        "instanceof",
+        "typeofof",
+        "checktype"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "topicId": 3,
+      "question": "Cách để lấy độ dài của một chuỗi trong JavaScript?",
+      "answers": [
+        "length()",
+        "size()",
+        "count()",
+        "length"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 43,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để thêm một phần tử vào cuối một mảng trong JavaScript?",
+      "answers": [
+        "push()",
+        "pop()",
+        "unshift()",
+        "shift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để xóa một phần tử ở cuối một mảng trong JavaScript?",
+      "answers": [
+        "push()",
+        "pop()",
+        "unshift()",
+        "shift()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 45,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để xóa một phần tử ở đầu một mảng trong JavaScript?",
+      "answers": [
+        "push()",
+        "pop()",
+        "unshift()",
+        "shift()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 46,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để chuyển đổi một số thành một chuỗi trong JavaScript?",
+      "answers": [
+        "toString()",
+        "toText()",
+        "convertToString()",
+        "string()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để tạo một số ngẫu nhiên trong JavaScript?",
+      "answers": [
+        "random()",
+        "rand()",
+        "randomNumber()",
+        "generateRandom()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để đảo ngược thứ tự các phần tử của một mảng trong JavaScript?",
+      "answers": [
+        "sort()",
+        "reverse()",
+        "splice()",
+        "slice()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để tìm phần tử đầu tiên trong một mảng thỏa mãn một điều kiện nhất định trong JavaScript?",
+      "answers": [
+        "filter()",
+        "find()",
+        "map()",
+        "reduce()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để tạo ra một mảng mới dựa trên mảng ban đầu trong JavaScript?",
+      "answers": [
+        "filter()",
+        "find()",
+        "map()",
+        "reduce()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 51,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để tính toán một giá trị duy nhất từ một mảng trong JavaScript?",
+      "answers": [
+        "filter()",
+        "find()",
+        "map()",
+        "reduce()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 52,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để mở một cửa sổ trình duyệt mới trong JavaScript?",
+      "answers": [
+        "openWindow()",
+        "newWindow()",
+        "createWindow()",
+        "window.open()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 53,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để đóng cửa sổ trình duyệt hiện tại trong JavaScript?",
+      "answers": [
+        "closeWindow()",
+        "window.close()",
+        "exitWindow()",
+        "hideWindow()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 54,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để xác định kích thước của cửa sổ trình duyệt trong JavaScript?",
+      "answers": [
+        "getWindowSize()",
+        "getBrowserSize()",
+        "getSize()",
+        "window.innerWidth và window.innerHeight"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 55,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để thêm một class vào một phần tử HTML trong JavaScript?",
+      "answers": [
+        "addClass()",
+        "insertClass()",
+        "setClass()",
+        "element.classList.add()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 56,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để xóa một class khỏi một phần tử HTML trong JavaScript?",
+      "answers": [
+        "element.classList.remove()",
+        "removeClass()",
+        "deleteClass()",
+        "eraseClass()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 57,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để kiểm tra xem một phần tử HTML có một class nhất định hay không trong JavaScript?",
+      "answers": [
+        "hasClass()",
+        "checkClass()",
+        "element.classList.contains()",
+        "containsClass()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 58,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để thêm một sự kiện vào một phần tử HTML trong JavaScript?",
+      "answers": [
+        "addEventListener()",
+        "attachEvent()",
+        "bindEvent()",
+        "setEvent()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 59,
+      "topicId": 3,
+      "question": "Hàm nào được sử dụng để loại bỏ một sự kiện khỏi một phần tử HTML trong JavaScript?",
+      "answers": [
+        "removeEvent()",
+        "removeEventListener()",
+        "detachEvent()",
+        "unbindEvent()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 60,
+      "topicId": 3,
+      "question": "Để lấy một phần tử HTML trong DOM bằng JavaScript, ta sử dụng phương thức nào của đối tượng document?",
+      "answers": [
+        "getElementById()",
+        "getElementsByClassName()",
+        "getElementsByTagName()",
+        "querySelector()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng element được sử dụng để lấy giá trị của thuộc tính HTML?",
+      "answers": [
+        "setAttribute()",
+        "removeAttribute()",
+        "getAttribute()",
+        "hasAttribute()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 62,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng element được sử dụng để đặt giá trị của thuộc tính HTML?",
+      "answers": [
+        "setAttribute()",
+        "removeAttribute()",
+        "getAttribute()",
+        "hasAttribute()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 63,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng element được sử dụng để xóa một thuộc tính HTML?",
+      "answers": [
+        "setAttribute()",
+        "removeAttribute()",
+        "getAttribute()",
+        "hasAttribute()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 64,
+      "topicId": 3,
+      "question": "Để tạo một phần tử HTML mới bằng JavaScript, ta sử dụng phương thức nào của đối tượng document?",
+      "answers": [
+        "createElement()",
+        "createTextNode()",
+        "createAttribute()",
+        "createHTML()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 65,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng fetch được sử dụng để gửi yêu cầu lấy dữ liệu đến máy chủ?",
+      "answers": [
+        "get()",
+        "post()",
+        "put()",
+        "delete()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 66,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng fetch được sử dụng để gửi yêu cầu lưu dữ liệu đến máy chủ?",
+      "answers": [
+        "get()",
+        "post()",
+        "put()",
+        "delete()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 67,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng fetch được sử dụng để gửi yêu cầu cập nhật dữ liệu đến máy chủ?",
+      "answers": [
+        "get()",
+        "post()",
+        "put()",
+        "delete()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 68,
+      "topicId": 3,
+      "question": "Phương thức nào của đối tượng fetch được sử dụng để gửi yêu cầu xóa dữ liệu đến máy chủ?",
+      "answers": [
+        "get()",
+        "post()",
+        "put()",
+        "delete()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 69,
+      "topicId": 3,
+      "question": "Khi nào chúng ta sử dụng phương thức then() của đối tượng fetch?",
+      "answers": [
+        "Để xử lý kết quả trả về từ phản hồi",
+        "Để gửi yêu cầu đến máy chủ",
+        "Để tạo đối tượng Response mới",
+        "Tất cả các đáp án đều sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 70,
+      "topicId": 3,
+      "question": "Khi nào chúng ta sử dụng phương thức catch() của đối tượng fetch?",
+      "answers": [
+        "Khi xảy ra lỗi trong quá trình gửi yêu cầu đến máy chủ",
+        "Khi nhận được phản hồi từ máy chủ",
+        "Khi xảy ra lỗi trong quá trình xử lý phản hồi",
+        "Tất cả các đáp án đều sai"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 71,
+      "topicId": 4,
+      "question": "ReactJS được phát triển bởi công ty nào?",
+      "answers": [
+        "Facebook",
+        "Google",
+        "Microsoft",
+        "Apple"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 72,
+      "topicId": 4,
+      "question": "ReactJS sử dụng cú pháp gì để tạo các component?",
+      "answers": [
+        "HTML",
+        "JSX",
+        "XML",
+        "CSS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 73,
+      "topicId": 4,
+      "question": "ReactJS sử dụng state để làm gì?",
+      "answers": [
+        "Lưu trữ các thông tin cục bộ trong component",
+        "Lưu trữ các thông tin toàn cục trong ứng dụng",
+        "Định nghĩa các thuộc tính cho component",
+        "Xử lý các sự kiện của người dùng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 74,
+      "topicId": 4,
+      "question": "Để bắt đầu phát triển một ứng dụng ReactJS, ta cần cài đặt gì?",
+      "answers": [
+        "React Native",
+        "Visual Studio Code",
+        "Node.js",
+        "Redux"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 75,
+      "topicId": 4,
+      "question": "Trong ReactJS, để truyền dữ liệu từ component cha xuống component con, ta sử dụng gì?",
+      "answers": [
+        "State",
+        "Props",
+        "Refs",
+        "Hooks"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 76,
+      "topicId": 4,
+      "question": "Trong ReactJS, để thay đổi trạng thái của một component khi một sự kiện xảy ra, ta sử dụng gì?",
+      "answers": [
+        "State",
+        "Props",
+        "Refs",
+        "Hooks"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 77,
+      "topicId": 4,
+      "question": "Trong ReactJS, để đồng bộ dữ liệu giữa các component không có quan hệ cha-con, ta sử dụng gì?",
+      "answers": [
+        "Props",
+        "React Router",
+        "Context API",
+        "Hooks"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 78,
+      "topicId": 4,
+      "question": "Trong ReactJS, để tạo một component có thể chứa nhiều component khác, ta sử dụng gì?",
+      "answers": [
+        "State",
+        "Props",
+        "Hooks",
+        "Fragments"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 79,
+      "topicId": 4,
+      "question": "Hook nào trong ReactJS được sử dụng để quản lý trạng thái của một component bằng cách sử dụng các biến cục bộ?",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useContext()",
+        "useMemo()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 80,
+      "topicId": 4,
+      "question": "Hook nào trong ReactJS được sử dụng để cung cấp các biến và hàm global cho tất cả các thành phần của ứng dụng?",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useContext()",
+        "useMemo()"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 81,
+      "topicId": 4,
+      "question": "Hook nào trong ReactJS được sử dụng để tối ưu hóa hiệu suất của component bằng cách lưu trữ kết quả tính toán giữa các lần render?",
+      "answers": [
+        "useState()",
+        "useEffect()",
+        "useContext()",
+        "useMemo()"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 82,
+      "topicId": 4,
+      "question": "Hook nào trong ReactJS được sử dụng để tạo một reference tới một phần tử HTML hoặc một thành phần React?",
+      "answers": [
+        "useRef()",
+        "useEffect()",
+        "useContext()",
+        "useMemo()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 83,
+      "topicId": 4,
+      "question": "Hook nào trong ReactJS được sử dụng để theo dõi sự thay đổi của một giá trị và chỉ khi giá trị thay đổi, mới thực hiện một tác vụ nào đó?",
+      "answers": [
+        "useRef()",
+        "useEffect()",
+        "useContext()",
+        "useMemo()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 84,
+      "topicId": 4,
+      "question": "Thư viện nào trong ReactJS được sử dụng để quản lý các route và chuyển hướng trang trong ứng dụng web?",
+      "answers": [
+        "React Router",
+        "Redux",
+        "Axios",
+        "Lodash"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 85,
+      "topicId": 4,
+      "question": "Component nào trong React Router được sử dụng để xác định các route và hiển thị các component khác nhau dựa trên đường dẫn URL của trang?",
+      "answers": [
+        "Routes",
+        "Route",
+        "Redirect",
+        "NavLink"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 86,
+      "topicId": 4,
+      "question": "Component nào trong React Router được sử dụng để định tuyến lại (redirect) người dùng đến một địa chỉ URL khác?",
+      "answers": [
+        "Routes",
+        "Route",
+        "Redirect",
+        "NavLink"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 87,
+      "topicId": 4,
+      "question": "Hook nào trong React Router được sử dụng để truy cập các tham số động được truyền từ URL đến component được hiển thị?",
+      "answers": [
+        "useHistory()",
+        "useParams()",
+        "useLocation()",
+        "useRouteMatch()"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 88,
+      "topicId": 4,
+      "question": "Component nào trong React Router được sử dụng để tạo liên kết đến các địa chỉ URL khác nhau trong ứng dụng?",
+      "answers": [
+        "Routes",
+        "Route",
+        "Link",
+        "Redirect"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 89,
+      "topicId": 4,
+      "question": "Component nào trong React Router giống như Link, nhưng có thể thêm class active khi liên kết được truy cập?",
+      "answers": [
+        "Routes",
+        "Route",
+        "Link",
+        "NavLink"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 90,
+      "topicId": 4,
+      "question": "Prop nào của NavLink trong React Router được sử dụng để chỉ định đường dẫn URL của liên kết?",
+      "answers": [
+        "activeClassName",
+        "className",
+        "style",
+        "to"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "answers": [
+    {
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 3
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 3
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 2
+        },
+        {
+          "questionId": 6,
+          "answer": 2
+        },
+        {
+          "questionId": 7,
+          "answer": 3
+        },
+        {
+          "questionId": 8,
+          "answer": 3
+        },
+        {
+          "questionId": 9,
+          "answer": 2
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 1
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 13,
+          "answer": 2
+        },
+        {
+          "questionId": 14,
+          "answer": 1
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 2
+        },
+        {
+          "questionId": 17,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 2
+        },
+        {
+          "questionId": 19,
+          "answer": 2
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 2
+        },
+        {
+          "questionId": 22,
+          "answer": 3
+        },
+        {
+          "questionId": 23,
+          "answer": 3
+        },
+        {
+          "questionId": 24,
+          "answer": 1
+        },
+        {
+          "questionId": 25,
+          "answer": 2
+        },
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 2
+        },
+        {
+          "questionId": 28,
+          "answer": 2
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 30,
+          "answer": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 3
+        },
+        {
+          "questionId": 22,
+          "answer": 3
+        },
+        {
+          "questionId": 23,
+          "answer": 1
+        },
+        {
+          "questionId": 24,
+          "answer": 1
+        },
+        {
+          "questionId": 25,
+          "answer": 1
+        },
+        {
+          "questionId": 26,
+          "answer": 3
+        },
+        {
+          "questionId": 27,
+          "answer": 3
+        },
+        {
+          "questionId": 28,
+          "answer": 2
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 30,
+          "answer": 2
+        },
+        {
+          "questionId": 31,
+          "answer": 3
+        },
+        {
+          "questionId": 32,
+          "answer": 2
+        },
+        {
+          "questionId": 33,
+          "answer": 3
+        },
+        {
+          "questionId": 34,
+          "answer": 3
+        },
+        {
+          "questionId": 35,
+          "answer": 1
+        },
+        {
+          "questionId": 36,
+          "answer": 1
+        },
+        {
+          "questionId": 37,
+          "answer": 1
+        },
+        {
+          "questionId": 38,
+          "answer": 1
+        },
+        {
+          "questionId": 39,
+          "answer": 3
+        },
+        {
+          "questionId": 40,
+          "answer": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 41,
+          "answer": 2
+        },
+        {
+          "questionId": 42,
+          "answer": 1
+        },
+        {
+          "questionId": 43,
+          "answer": 1
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 45,
+          "answer": 3
+        },
+        {
+          "questionId": 46,
+          "answer": 1
+        },
+        {
+          "questionId": 47,
+          "answer": 2
+        },
+        {
+          "questionId": 48,
+          "answer": 3
+        },
+        {
+          "questionId": 49,
+          "answer": 3
+        },
+        {
+          "questionId": 50,
+          "answer": 1
+        },
+        {
+          "questionId": 51,
+          "answer": 1
+        },
+        {
+          "questionId": 52,
+          "answer": 1
+        },
+        {
+          "questionId": 53,
+          "answer": 2
+        },
+        {
+          "questionId": 54,
+          "answer": 2
+        },
+        {
+          "questionId": 55,
+          "answer": 2
+        },
+        {
+          "questionId": 56,
+          "answer": 2
+        },
+        {
+          "questionId": 57,
+          "answer": 1
+        },
+        {
+          "questionId": 58,
+          "answer": 2
+        },
+        {
+          "questionId": 59,
+          "answer": 1
+        },
+        {
+          "questionId": 60,
+          "answer": 1
+        },
+        {
+          "questionId": 61,
+          "answer": 2
+        },
+        {
+          "questionId": 62,
+          "answer": 1
+        },
+        {
+          "questionId": 63,
+          "answer": 1
+        },
+        {
+          "questionId": 64,
+          "answer": 3
+        },
+        {
+          "questionId": 65,
+          "answer": 2
+        },
+        {
+          "questionId": 66,
+          "answer": 1
+        },
+        {
+          "questionId": 67,
+          "answer": 2
+        },
+        {
+          "questionId": 68,
+          "answer": 0
+        },
+        {
+          "questionId": 69,
+          "answer": 0
+        },
+        {
+          "questionId": 70,
+          "answer": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 71,
+          "answer": 1
+        },
+        {
+          "questionId": 72,
+          "answer": 2
+        },
+        {
+          "questionId": 73,
+          "answer": 1
+        },
+        {
+          "questionId": 74,
+          "answer": 2
+        },
+        {
+          "questionId": 75,
+          "answer": 2
+        },
+        {
+          "questionId": 76,
+          "answer": 1
+        },
+        {
+          "questionId": 77,
+          "answer": 2
+        },
+        {
+          "questionId": 78,
+          "answer": 3
+        },
+        {
+          "questionId": 79,
+          "answer": 2
+        },
+        {
+          "questionId": 80,
+          "answer": 2
+        },
+        {
+          "questionId": 81,
+          "answer": 3
+        },
+        {
+          "questionId": 82,
+          "answer": 2
+        },
+        {
+          "questionId": 83,
+          "answer": 3
+        },
+        {
+          "questionId": 84,
+          "answer": 1
+        },
+        {
+          "questionId": 85,
+          "answer": 2
+        },
+        {
+          "questionId": 86,
+          "answer": 3
+        },
+        {
+          "questionId": 87,
+          "answer": 3
+        },
+        {
+          "questionId": 88,
+          "answer": 3
+        },
+        {
+          "questionId": 89,
+          "answer": 3
+        },
+        {
+          "questionId": 90,
+          "answer": 3
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 3
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        },
+        {
+          "questionId": 5,
+          "answer": 3
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 3
+        },
+        {
+          "questionId": 9,
+          "answer": 3
+        },
+        {
+          "questionId": 10,
+          "answer": 2
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 1
+        },
+        {
+          "questionId": 13,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 2
+        },
+        {
+          "questionId": 16,
+          "answer": 3
+        },
+        {
+          "questionId": 17,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        }
+      ],
+      "id": 10
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "users-id": "23",
+      "topic": "TOPIC",
+      "date": "2015-12-2",
+      "count": 1,
+      "answer": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        0,
+        2,
+        3,
+        1,
+        2,
+        0,
+        1,
+        3,
+        2,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "users-id": 9,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:30:42",
+      "count": 2,
+      "answer": [
+        2,
+        0,
+        0,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 2
+    },
+    {
+      "users-id": 9,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:32:37",
+      "answer": [
+        0,
+        1,
+        3,
+        2,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 3
+    },
+    {
+      "users-id": 9,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:33:53",
+      "count": 4,
+      "answer": [
+        3,
+        1,
+        0,
+        2,
+        1,
+        3,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 4
+    },
+    {
+      "users-id": 9,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:34:29",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 5
+    },
+    {
+      "users-id": 9,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:34:43",
+      "count": 1,
+      "answer": [
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 6
+    },
+    {
+      "users-id": 1,
+      "topic": "REACTJS",
+      "date": "Mon Thg 6 26 2023 21:39:44",
+      "count": 2,
+      "answer": [
+        3,
+        3,
+        2,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 7
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:40:53",
+      "count": 2,
+      "answer": [
+        1,
+        2,
+        0,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 8
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:41:16",
+      "count": 0,
+      "answer": [
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 9
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:42:6",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 10
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:43:27",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 11
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:43:54",
+      "count": 1,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 12
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:44:11",
+      "count": 1,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 13
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:44:21",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 14
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:48:28",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 15
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:50:20",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 16
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:50:51",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 17
+    },
+    {
+      "users-id": 1,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:57:22",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 18
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:58:0",
+      "count": 1,
+      "answer": [
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 19
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:58:19",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 20
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:58:29",
+      "count": 0,
+      "answer": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 21
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 21:59:20",
+      "count": 1,
+      "answer": [
+        2,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 22
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 22:2:15",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 23
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 22:2:22",
+      "count": 0,
+      "answer": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 24
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 22:2:33",
+      "count": 1,
+      "answer": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 25
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Mon Thg 6 26 2023 22:2:43",
+      "count": 1,
+      "answer": [
+        1,
+        2,
+        0,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 26
+    },
+    {
+      "users-id": 9,
+      "topic": "HTML5",
+      "date": "Mon Thg 6 26 2023 22:6:49",
+      "count": 3,
+      "answer": [
+        2,
+        0,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 27
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 12:16:37",
+      "count": 0,
+      "answer": [
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 28
+    },
+    {
+      "users-id": 18,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 12:19:59",
+      "count": 3,
+      "answer": [
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 29
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:16:0",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 30
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:17:7",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 31
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:17:56",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 32
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:18:22",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 33
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:18:57",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 34
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 13:22:40",
+      "count": 3,
+      "answer": [
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 35
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 14:32:30",
+      "count": 2,
+      "answer": [
+        2,
+        2,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 36
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 19:54:7",
+      "count": 0,
+      "answer": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 37
+    },
+    {
+      "users-id": 18,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 21:36:49",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 38
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 21:37:34",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 39
+    },
+    {
+      "users-id": 3,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 21:38:13",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 40
+    },
+    {
+      "users-id": 9,
+      "topic": "CSS3",
+      "date": "Tue Thg 6 27 2023 21:51:13",
+      "count": 1,
+      "answer": [
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 41
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 42
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 1,
+      "answer": [
+        0,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 43
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 2,
+      "answer": [
+        0,
+        1,
+        2,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 44
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 1,
+      "answer": [
+        3,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 45
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 11,
+      "answer": [
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        null,
+        0,
+        3,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 46
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 47
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 48
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 49
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 50
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 51
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 52
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 6,
+      "answer": [
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 53
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 1,
+      "answer": [
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 54
+    },
+    {
+      "date": "Inv Invalid Date NaN NaN NaN:NaN:NaN",
+      "count": 0,
+      "answer": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "id": 55
+    }
+  ]
 }
